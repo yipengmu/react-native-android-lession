@@ -9,7 +9,7 @@
 >React-Native 是Android端实现实现动态部署的另一种思路，绕过dexLoad【一些现有的Android插件框架】。
 是在开发效率和用户体验间做的一种权衡。React-native是使用JS开发，开发效率高、发布能力强。
 
-用编辑器打开index.ios.js文件，分析代码结构：
+用编辑器打开对应的.js文件，分析代码结构：
 
 * var React = require('react-native');
 
