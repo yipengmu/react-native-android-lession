@@ -1,7 +1,19 @@
 #常见问题汇总：
+#1.假如你成功了
+##success界面
+按照官方的教程把RN-android 环境搭建好后，就可以把demo跑起来了； 
+
+![screenshot](http://img3.tbcdn.cn/L1/461/1/30148ef98d2c1ddd8e7c83f8d467caa0df75b48f)
+
+本地实际的访问地址可以参考：
+    http://localhost:8081/index.android.bundle?platform=android
+    
+#2.可能第一次都会失败
 
 ##1.出现一个红色的界面
+
 ![screenshot](http://img1.tbcdn.cn/L1/461/1/a32ef715aec032c8e9f7dc02393070c9ddb2fe39)
+
 解决方案: 
 
 本地server指定的8081端口并没有成功接送数据
@@ -27,3 +39,5 @@ Dev Settings -> Debug server host for device，
 解决方案:
 
 像MIUI等系统，默认会把那个显示悬浮窗开关给屏蔽关掉【用户可以手动切换】，操作后，重新load即可
+
+常见的demo可以参考下这个：http://www.race604.com/react-native-for-android-start/
