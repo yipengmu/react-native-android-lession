@@ -3,7 +3,7 @@
 > 老穆记录： react native andorid 学习路程
 
 ---
-![关于iOS部分可以参考vczero的lession文章](https://github.com/vczero/react-native-lession)
+[关于iOS部分可以参考vczero的lession文章](https://github.com/vczero/react-native-lession)
 
 
 >React-Native 是Android端实现实现动态部署的另一种思路，绕过dexLoad【一些现有的Android插件框架】。
