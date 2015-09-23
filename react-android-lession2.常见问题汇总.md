@@ -10,7 +10,7 @@
     
 #2.可能第一次都会失败
 
-##1.出现一个红色的界面
+##1.出现一个红色的界面，failed JS bundle
 
 ![screenshot](http://img1.tbcdn.cn/L1/461/1/a32ef715aec032c8e9f7dc02393070c9ddb2fe39)
 
@@ -40,4 +40,15 @@ Dev Settings -> Debug server host for device，
 
 像MIUI等系统，默认会把那个显示悬浮窗开关给屏蔽关掉【用户可以手动切换】，操作后，重新load即可
 
-常见的demo可以参考下这个：http://www.race604.com/react-native-for-android-start/
+更常见的搭建问题可以参考下这个：http://www.race604.com/react-native-for-android-start/
+
+##3.invariant Violation:Application 红色屏幕错误
+![图片](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-09-23-12-30-41.png?raw=true)
+
+解决方案:
+
+1.首先可以参考 OverStack:
+
+http://stackoverflow.com/questions/29287987/invariant-violation-application-awesomeproject-has-not-been-registered-when-b
+
+2.根据具体错误信息去排查，最后发现我出现这个错误的原因是不小心在文件头部打多了个无效字符，导致无法正确解析下面的代码行。所以只需要把那个无用的代码【影响了语法编译环节】删掉，重新reload -js 即可
