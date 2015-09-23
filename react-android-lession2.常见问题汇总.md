@@ -47,8 +47,10 @@ Dev Settings -> Debug server host for device，
 
 解决方案:
 
-1.首先可以参考 OverStack:
+1.首先可以参考 OverStack 和一个官方的issue:
 
 http://stackoverflow.com/questions/29287987/invariant-violation-application-awesomeproject-has-not-been-registered-when-b
+
+https://github.com/facebook/react-native/issues/500#issuecomment-111575780
 
 2.根据具体错误信息去排查，最后发现我出现这个错误的原因是不小心在文件头部打多了个无效字符，导致无法正确解析下面的代码行。所以只需要把那个无用的代码【影响了语法编译环节】删掉，重新reload -js 即可
