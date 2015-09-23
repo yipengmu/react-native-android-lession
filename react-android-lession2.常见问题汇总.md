@@ -54,3 +54,13 @@ http://stackoverflow.com/questions/29287987/invariant-violation-application-awes
 https://github.com/facebook/react-native/issues/500#issuecomment-111575780
 
 2.根据具体错误信息去排查，最后发现我出现这个错误的原因是不小心在文件头部打多了个无效字符，导致无法正确解析下面的代码行。所以只需要把那个无用的代码【影响了语法编译环节】删掉，重新reload -js 即可
+
+##4.加载UIExplorerBlock失败
+
+![图片](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-09-23-16-41-45.png?raw=true)
+
+这是一个官方bug,默认的node_modules里面并没有该组件对应
+
+https://github.com/facebook/react-devtools/issues/128
+
+ios之前有这个问题，Android的初期版本貌似也有该类似问题
