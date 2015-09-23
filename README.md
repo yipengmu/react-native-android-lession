@@ -1,6 +1,6 @@
 # react-native-android-lession
 ---
-> 老穆记录： react native andorid 学习路程
+> 老穆记录： react native andorid 
 
 ---
 [关于iOS部分可以参考vczero的lession文章](https://github.com/vczero/react-native-lession)
