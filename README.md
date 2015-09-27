@@ -122,4 +122,4 @@
 
 #4.从服务端动态拉取配置，并用listview进行展示
 
-![listview展示](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/device-2015-09-21-180925.png)
+![listview展示](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/flexbox.png)
