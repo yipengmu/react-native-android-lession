@@ -16,7 +16,7 @@ https://github.com/facebook/react-native 项目代码
 
 可能会遇到该问题
 
-
+![图片](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/1.jpeg?raw=true)
 #mac下配置NDK配置React
 
 http://developer.android.com/ndk/downloads/index.html#download
@@ -29,6 +29,7 @@ ndk$ ./android-ndk-r10c-darwin-x86_64.bin
 
 之后就可以看到
 
+![图片](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/2.jpeg?raw=true)
 
 项目可以编译通过的状态。
 
@@ -36,6 +37,7 @@ ndk$ ./android-ndk-r10c-darwin-x86_64.bin
 在我们的主工程项目里面也可以看到node_modules的对应目录关系：
 
 
+![图片](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/3.jpeg?raw=true)
 
 # ReactAndroid打包分析[共15个task]:
 
