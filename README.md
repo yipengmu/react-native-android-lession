@@ -122,10 +122,10 @@
 
 #4.从服务端动态拉取配置，并用listview进行展示
 
-listview展示
+##1.listview展示
 
 ![listview展示](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/flexbox.png)
 
-自定义webview 和 自动Toast
+##2.自定义webview 和 自定义Toast
 
 ![自定义webview 和 自动Toast](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-10-14-19-51-43.png)

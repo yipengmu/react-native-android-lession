@@ -1,7 +1,7 @@
 #如何封装一个React native for android 的 NativeModule组件
 
 ![pics](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-10-14-19-51-43.png)
-##首先需要使用自己的packageManager
+##1.首先需要使用自己的packageManager
  
     public class YourRnPackage extends MainReactPackage {
     @Override
@@ -32,7 +32,7 @@
 	}
 
 
-并在你的Activitiy或Fragment中对其进行设置
+#2.在你的Activitiy或Fragment中对其进行设置
 
 
     public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
@@ -58,7 +58,7 @@
         setContentView(mReactRootView);
     }
     
-#Step by Step:
+#3.Step by Step:
 
 1.Create the ViewManager subclass.
 
@@ -72,7 +72,7 @@
 
 6.Implement the JavaScript module
 
-#以新增一个自定义Toast为例
+#4.以新增一个自定义Toast为例
 
 
     public class YourToastModule extends ReactContextBaseJavaModule {
