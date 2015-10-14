@@ -1,6 +1,6 @@
 #如何封装一个React native for android 的 NativeModule组件
 
-![pics](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-10-14-19-51-43.png)
+
 ##1.首先需要使用自己的packageManager
  
     public class YourRnPackage extends MainReactPackage {
@@ -129,4 +129,18 @@
 	var ToastAndroid = React.NativeModules.YourToastModule
 	ToastAndroid.show('自定义toast 调用成功', ToastAndroid.SHORT);
 
+#4.最终的自定义组件封装的调用效果如下图所示：
 
+1.底部的toast就是通过自定义的React组件显示出来的
+
+2.屏幕中的webview也是类似的方法，在JS使用了
+如下代码即可:
+
+var ToastAndroid = React.NativeModules.MyWebView
+
+`var AliReactAndroid = React.createClass({})；` 
+
+	<MyWebView
+              style={{width: 600,height: 500}}
+              url={"http://www.qq.com"}/>
+![pics](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-10-14-19-51-43.png)
