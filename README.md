@@ -52,13 +52,13 @@
 #最新动态
 15.10.28日React Native Android可以load指定 jsBundle啦 虽然暂时还不支持直接的server-url，但是可以通过自定义JSLoader+DownloadManager去实现了。 
 
-## 1.这个代码应该会合到0.14版本中 https://github.com/facebook/react-native/releases
+1.这个代码应该会合到0.14版本中 https://github.com/facebook/react-native/releases
 
-## 2.使用loadFromFile代替了loadFromNetwork 
+2.使用loadFromFile代替了loadFromNetwork 
 
-## 使用loadFromAssets充当了loadFromNetworkCached
+3.使用loadFromAssets充当了loadFromNetworkCached
 
-## code diff http://t.cn/RU5aksF?u=1310602621&m=3903222676550852&cu=1310602621
+4.code diff http://t.cn/RU5aksF?u=1310602621&m=3903222676550852&cu=1310602621
 
 #1.环境安装
 1.安装nvm
