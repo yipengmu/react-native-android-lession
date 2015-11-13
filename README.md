@@ -139,3 +139,9 @@
 ##2.自定义webview 和 自定义Toast
 
 ![自定义webview 和 自动Toast](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/Screenshot_2015-10-14-19-51-43.png)
+
+## 3.配合官方的UI explorer，对学习和使用ReactAndroid都会有非常大的帮助
+
+![ui demo](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/demo-list.png)
+
+![ui demo](https://github.com/yipengmu/react-native-android-lession/blob/master/pics/uiexplorer.png)
