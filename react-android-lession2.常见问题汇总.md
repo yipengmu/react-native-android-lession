@@ -16,6 +16,10 @@
 
 解决方案: 
 
+有时候你运行 react-native run-android，发现并不能自动运行 dev server，你可以在当前项目目录中运行如下命令来手动启动 server：
+```shell
+	$ react-native start
+```
 本地server指定的8081端口并没有成功接送数据
 
 adb reverse tcp:8081 tcp:8081
@@ -26,13 +30,21 @@ adb reverse tcp:8081 tcp:8081
 
 ![screenshot](http://img2.tbcdn.cn/L1/461/1/37047707bd13364486e54127b17715a3923f7dfb)
 
-点击手机的物理menu键
+如果是5.0以下的系统 会爆出closed ， 建议使用wifi方式进行调试
+```shell
+	$ adb reverse tcp:8081 tcp:8081
+	error: closed  
+```
+点击手机的物理menu键, 或者摇动手机才会出现Dev settings菜单（这项操作需要在你已经打开的ReactNavtive应用界面操作才有效）
 
 Dev Settings -> Debug server host for device，
 
 填入自己pc电脑上的 IP 地址，需要在同一网段，例如手机和pc都连接到了tplink-wifi-sid上。
 
 之后menu-reload js 即可。
+
+如果手机和电脑不在同一个网段，或者手机不能访问到，就会出现
+Unable to download js bundle的红屏界面
 
 ##2.可能出现白色的界面
 ![图片](http://img4.tbcdn.cn/L1/461/1/9edf84896db6155806115ee309be71ff4b046829)
