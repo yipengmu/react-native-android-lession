@@ -92,4 +92,4 @@ getResourceDrawableUri 最终会执行通过下面React中如下代码获得Draw
 换成drawable 下 ，运行正常，采坑结束，基本了解了 js端imageView组件到native层加载搜索的逻辑了
 
 
-文章源地址见 github :[老穆 React 常见采坑总结]()
+文章源地址见 github :[老穆 React 常见采坑总结](https://github.com/yipengmu/ReactNative_Android_QA/blob/master/README.md)
