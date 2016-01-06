@@ -77,7 +77,7 @@ getResourceDrawableUri 最终会执行通过下面React中如下代码获得Draw
 
 
 ### id
-一路跟踪 。。。。。擦
+一路跟踪 。。。。。擦,写死了 drawable 这种type, 而新版本的Studio是推荐的mipmap文件夹。。。。。额 找到问题关键了
 
 ![](http://s11.sinaimg.cn/mw690/001qH9BXgy6YmoZpFLIba&690)
 ![](http://s1.sinaimg.cn/mw690/001qH9BXgy6YmoZutfq90&690)
