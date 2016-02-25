@@ -76,3 +76,11 @@ https://github.com/facebook/react-native/issues/500#issuecomment-111575780
 https://github.com/facebook/react-devtools/issues/128
 
 ios之前有这个问题，Android的初期版本貌似也有该类似问题
+
+##5. .babelrc.stage文件错误
+```java
+transforming [========================================] 100% 399/400
+Error while persisting cache: TransformError: /Users/alexwan/Documents/Project/HelloWorld/node_modules/react-deep-force-update/lib/index.js: [BABEL] /Users/alexwan/Documents/Project/HelloWorld/node_modules/react-deep-force-update/lib/index.js: Unknown option:
+/Users/alexwan/Documents/Project/HelloWorld/node_modules/react-deep-force-update/.babelrc.stage
+```
+项目文件夹中node_modules/react-deep-force-update/.babelrc.stage 这个文件也会引起`红屏`，删除之后就可以运行通过了。
