@@ -77,7 +77,7 @@ getResourceDrawableUri 最终会执行通过下面React中如下代码获得Draw
 
 
 ### id
-一路跟踪 。。。。。擦
+一路跟踪 。。。。。擦,写死了 drawable 这种type, 而新版本的Studio是推荐的mipmap文件夹。。。。。额 找到问题关键了
 
 ![](http://s11.sinaimg.cn/mw690/001qH9BXgy6YmoZpFLIba&690)
 ![](http://s1.sinaimg.cn/mw690/001qH9BXgy6YmoZutfq90&690)
@@ -86,7 +86,11 @@ getResourceDrawableUri 最终会执行通过下面React中如下代码获得Draw
 
 
 ### mipmap
-原来是 新的Android studio 现在新建的文件夹都是mipmap-xxdpi 而不是以前的drawable-xxdpi,自己也没有注意。具体的原因可以参考这里，http://segmentfault.com/q/1010000002603418，即官方后续也是推荐使用mipmap代替 drawable...
+原来是 新的Android studio 现在新建的文件夹都是mipmap-xxdpi 而不是以前的drawable-xxdpi,自己也没有注意
+
+具体的原因可以参考这里，http://segmentfault.com/q/1010000002603418
+
+即官方后续也是推荐使用mipmap代替 drawable...
 
 ### 曙光
 换成drawable 下 ，运行正常，采坑结束，基本了解了 js端imageView组件到native层加载搜索的逻辑了
